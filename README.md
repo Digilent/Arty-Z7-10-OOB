@@ -26,6 +26,7 @@ Demo Setup
 1. Download the most recent release ZIP archives from the repo's [releases page](https://github.com/Digilent/Arty-Z7-10-HDMI-In/releases). These files are called "Arty-Z7-10-OOB-hw.xpr.zip" and "Arty-Z7-10-OOB-sw.ide.zip". The -hw archive contains an exported XPR project file and associated sources for use with Vivado. The -sw archive contains exported project files for use with Vitis. Both of these files contain the build products of the associated tool.
   
   Note: Do not extract the downloaded -sw archive.
+  
 2. Open Vitis 2020.1. Choose an empty folder as the *Workspace* to launch into.
 3. With Vitis opened, click the **Import Project** button, under **PROJECT** in the welcome screen.
 4. Choose *Vitis project exported zip file* as the Import type, then click **Next**.
