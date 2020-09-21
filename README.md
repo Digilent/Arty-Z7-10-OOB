@@ -32,7 +32,7 @@ Demo Setup
 4. Choose *Vitis project exported zip file* as the Import type, then click **Next**.
 5. **Browse** for the downloaded -sw archive, and **Open** it.
 6. Make sure that all boxes are checked in order to import each of the projects present in the archive will be imported, then click **Finish**.
-7. Plug in the HDMI input and output cables to the HDMI source and the HDMI capable Monitor/TV.
+7. Plug in the HDMI input and output cables to the HDMI source and the HDMI capable Monitor/TV. Plug the headphones/speaker into the AUDIO OUT port.
 8. Open a serial terminal application (such as [TeraTerm](https://ttssh2.osdn.jp/index.html.en) and connect it to the Arty Z7-10's serial port, using a baud rate of 115200.
 9. In the *Assistant* pane at the bottom left of the Vitis window, right click on the project marked `[System]`, and select **Run** -> **Launch Hardware**. When the demo is finished launching, messages will be able to be seen through the serial terminal, and the demo can be used as described in this document's *Description* section, above.
 
@@ -49,7 +49,7 @@ To later make changes to the Vivado project and update the hardware platform in 
 Next Steps
 ----------
 This demo can be used as a basis for other projects by modifying the hardware platform in the Vivado project's block design or by modifying the SDK application project.
-Check out the Arty Z7-10's [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/arty-z7/start) to find more documentation, demos, and tutorials.
+Check out the Arty Z7's [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/arty-z7/start) to find more documentation, demos, and tutorials.
 For technical support or questions, please post on the [Digilent Forum](forum.digilentinc.com).
 
 Known Issues
@@ -59,4 +59,4 @@ Known Issues
 
 Additional Notes
 ----------------
-For more information on how this project is version controlled, refer to the digilent-vivado-scripts submodule's [readme](https://github.com/digilent/digilent-vivado-scripts).
+For more information on how this project is version controlled, refer to the [digilent-vivado-scripts repo](https://github.com/digilent/digilent-vivado-scripts) and [digilent-vitis-scripts](https://github.com/digilent/digilent-vitis-scripts) repositories.
